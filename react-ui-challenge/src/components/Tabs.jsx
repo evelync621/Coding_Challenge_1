@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import TabContent from "./TabContent.jsx";
 
 const Tabs = () => {
     const [activeTab, setActiveTab] = useState("Fruits");
@@ -18,6 +19,7 @@ const Tabs = () => {
           </button>
         ))}
       </div>
+      <TabContent category={activeTab} />
     </div>
   );
 };
