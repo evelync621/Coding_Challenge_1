@@ -66,3 +66,38 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.tab-button {
+  margin: 10px;
+}
+
+.tab-button.active {
+  background: hsl(125, 96%, 45%);
+  color: rgb(0, 0, 0);
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.list-item {
+  padding: 10px;
+  margin: 5px 0;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+  border: 1px solid #ccc;
+}
+
+.list-item:hover {
+  background: hsl(125, 96%, 45%);
+  color:rgb(0, 0, 0);
+  border-color: #aaa; 
+}
+
+.list-item.selected {
+  background: hsl(125, 96%, 45%);
+  color: black;
+  border-color: #388e3c;
+}

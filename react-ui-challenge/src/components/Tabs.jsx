@@ -19,6 +19,7 @@ const Tabs = () => {
           </button>
         ))}
       </div>
+      <h3 className="tab-heading">List</h3>
       <TabContent category={activeTab} />
     </div>
   );
